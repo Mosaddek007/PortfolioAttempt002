@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(66, 65, 65);
+    font-family: 'Raleway', sans-serif;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+button{
+    outline: none;
+    border: none;
+}
+input{
+    outline: none;
+    border: none;
+}
+.logo img{
+    width: 140px;
+}
+/*Nav*/
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #3f3f3f;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 17px;
+    display: flex;
+    font-size:  0.7rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: white;
+    letter-spacing: 1px;
+    transition: 0.07s ease;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid red;
+    box-shadow: 5px 10px 30px rgba(252, 63, 63, 0.4);
+}
+.active{
+    border-bottom: 2px solid red;
+    box-shadow: 5px 10px 30px rgba(252, 63, 63, 0.4);
+}
+/*header*/
+.header-img{
+    width: 358px;
+    height: 458px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    border-bottom: 10px solid #6b6969;
+    border-right: 10px solid #6b6969;
+    border-radius: 10%;
+    background-image: url(imagessss.JPG);
+}
+
+.header-heading{
+    width: 500px;
+    position: absolute;
+    left: 500px;
+    top: 50%;
+    color: #fff;
+    transform: translate(-18%,-50%)
+}
+.header-heading h1{
+    font-size: 45px;
+    margin: 0px;
+    letter-spacing: 3px;
+}
+.header-heading h1 span{
+    color: red;
+}
+.header-heading p{
+    color: rgb(201, 201, 201);
+}
+.header-btn{
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    box-shadow: 5px 10px 30px rgba(252, 63, 63, 0.4); ;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 25px;
+    transition: 0.07s ease-in-out;
+}
+.header-btn a{
+    color: #fff;
+    
+}
+.header-btn:hover{
+    background-color: rgb(196, 51, 51);
+}
+/*about*/
+.about-text{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(105, 91, 91);
+    padding: 50px 5% 0px 5%;
+    float: none;
+    padding: 100px;
+    margin-top: 50px;    
+}
+.hero-section{
+    width: 100%;
+    height: 900px;   
+}
+.icon-social-media{
+    width: 200px;
+    height: 40px;
+    top: 190px;
+    position: absolute;
+    right: 310px;
+}
+/* sociallinks */
+.social{
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+    display: inline-block;
+}
+.instagram:hover{
+    border-bottom: 1px solid red;
+}
+.Linkedin:hover{
+    border-bottom: 1px solid red;
+}
+.github:hover{
+    border-bottom: 1px solid red;
+}
+/* .twitter:hover{
+    border-bottom: 1px solid white;
+}
+.spotify:hover{
+    border-bottom: 1px solid white;
+} */
+
+/* skillsection */
+.skillsection{
+    background-color: #3f3f3f;
+    width: 100%;
+    height: 1000px;
+    margin-top: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.skillheader{
+    text-align: center;
+}
+.skillheaderborder{
+    border-bottom: 2px solid black;
+    width: 300px;
+    height: 5px;
+    left: 800px;
+    position: relative;
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.skil{
+    width: 30%;
+    height: 250px;
+    background: #6b6969;
+    color: black;
+    border: 2px solid #6b6969;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 24px;
+    
+}
